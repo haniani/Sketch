@@ -18,8 +18,11 @@ __
 1. testbigra.py - биграммы => bigrams.json
 2. extract_prep_trigrams_2json.py, trigrams_prep_full.py => trigrams.json
 
+Результат на небольшом корпусе в 500 мб: https://yadi.sk/d/cl8TpRJr3GN5Sr
+
 3. Sketch.py + 
 (dictofallwords.txt - словарь всех обработанных слов с их индексами;
 dictpartsspeech.txt - словарь всех слов с указанием на часть речи;
-freqdict.json - распарсенный частотный словарь О.Н.Ляшевской)
+freqdict.json - распарсенный частотный словарь О.Н.Ляшевской
+relationfreqdict.json - частота отношений по корпусу)
 => %number%.csv(релевантные отношения слова + pmi, t-score), %number%.txt(сгруппированные отношения слова связь-подсвязь)
